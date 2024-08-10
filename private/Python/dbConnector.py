@@ -1,12 +1,4 @@
 import mysql.connector
-# from Crypto.Cipher import DES3
-# from Crypto.Util.Padding import pad, unpad
-
-# def encrypt(data, key):
-  #  cipher = DES3.new(key, DES3.MODE_ECB)
-   # padded_data = pad(data.encode(), DES3.block_size)
-   # encrypted_data = cipher.encrypt(padded_data)
-   # return 
 
 def connect_to_database(host, user, password, database):
     try:
