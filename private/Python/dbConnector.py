@@ -5,8 +5,8 @@ def connect_to_database(host, user, password, database):
         SolarDB = mysql.connector.connect(
             host="127.0.0.1",
             user="root",
-            password="Joshh2003&",
-            database="solar"
+            password="qcmtG3CEmBiw94uZ6Uq4",
+            database="DCTSolar"
         )
         mycursor = SolarDB.cursor()
         return SolarDB, mycursor

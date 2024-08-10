@@ -25,6 +25,20 @@
             "database": "solar",
             "username": "root",
             "askForPassword": true
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 250,
+            "server": "127.0.0.1",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "SolarDB",
+            "database": "DCTSolar",
+            "username": "root",
+            "askForPassword": true
         }
     ]
 }
